@@ -115,6 +115,11 @@ idf.py set-target esp32s3
 idf.py build
 idf.py -p /dev/ttyACM0 flash monitor
 ```
+If you get a warning for mismached flash size, adjust it using:
+```bash
+idf.py menuconfig
+# → Serial flasher config → Flash size → 8MB
+```
 **Remember** before flashing you need to get the board into flash mode.\
 **Press and hold** the `boot` button, then **press** `reset` once and **release** the `boot` button.\
 The LED should become a solid color.
