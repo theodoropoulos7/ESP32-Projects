@@ -1,0 +1,24 @@
+# Build artifacts
+**/build/
+*.elf
+*.bin
+*.map
+
+# PlatformIO build files (if ever used)
+.pio/
+
+# ESP-IDF Python environment (if not versioned)
+.idf_python_env/
+
+# VS Code settings
+.vscode/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
