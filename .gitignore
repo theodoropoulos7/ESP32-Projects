@@ -3,6 +3,7 @@
 *.elf
 *.bin
 *.map
+**sdkconfig**
 
 # PlatformIO build files (if ever used)
 .pio/
