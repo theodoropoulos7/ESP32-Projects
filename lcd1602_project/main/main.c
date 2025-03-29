@@ -28,7 +28,7 @@ void app_main(void) {
                        I2C_MASTER_TX_BUF_DISABLE, 0);
 
     // Init LCD
-    lcd1602_init(I2C_MASTER_NUM, 0x27); // Most modules use 0x27 or 0x3F
+    lcd1602_init(I2C_MASTER_NUM, 0x3E); // Most modules use 0x27 or 0x3F
 
     // Display text
     lcd1602_clear();
